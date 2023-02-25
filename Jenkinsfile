@@ -21,12 +21,6 @@ pipeline {
           }
         }
 
-        stage('test2') {
-          steps {
-            echo 'test 2'
-          }
-        }
-
       }
     }
 
